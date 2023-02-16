@@ -108,3 +108,5 @@ afishaArr.forEach((item) => {
   const element = createAfisha(item);
   afisha.append(element);
 });
+
+let test;
