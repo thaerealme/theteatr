@@ -1,0 +1,9 @@
+.afisha {
+  max-width: 1184px;
+  margin: auto;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(auto-fit, minmax(282px, 1fr));
+  gap: 25px 15px;
+  justify-items: center;
+}

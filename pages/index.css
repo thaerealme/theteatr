@@ -22,3 +22,9 @@
 @import url(../blocks/mobile-menu/__links/mobile-menu__links.css);
 @import url(../blocks/mobile-menu/__link-item/mobile-menu__link-item.css);
 @import url(../blocks/mobile-menu/_opened/mobile-menu_opened.css);
+
+@import url(../blocks/afisha/afisha.css);
+@import url(../blocks/afisha/__item/afisha__item.css);
+@import url(../blocks/afisha/__title/afisha__title.css);
+@import url(../blocks/afisha/__date/afisha__date.css);
+@import url(../blocks/afisha/__time/afisha__time.css);
