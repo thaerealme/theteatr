@@ -5,85 +5,85 @@ const afishaArr = [
     title: 'под одеялом',
     date: '2, 3 февраля',
     time: '19:00, 20:00',
-    src: '../../../images/afisha/afisha-blanket.jpg'
+    src: './images/afisha/afisha-blanket.jpg'
   },
   {
     title: 'под одеялом',
     date: '4, 5 февраля',
     time: '18:00, 20:00',
-    src: '../../../images/afisha/afisha-blanket.jpg'
+    src: './images/afisha/afisha-blanket.jpg'
   },
   {
     title: 'запретные монологи v',
     date: '8 февраля',
     time: '20:00',
-    src: '../../../images/afisha/afisha-monologi.jpg'
+    src: './images/afisha/afisha-monologi.jpg'
   },
   {
     title: 'стоп sex',
     date: '10 февраля',
     time: '20:00',
-    src: '../../../images/afisha/afisha-stopsex.jpg'
+    src: './images/afisha/afisha-stopsex.jpg'
   },
   {
     title: 'раненные фрейдом',
     date: '11 февраля',
     time: '19:00',
-    src: '../../../images/afisha/afisha-freid.jpg'
+    src: './images/afisha/afisha-freid.jpg'
   },
   {
     title: 'саундтрек моей жизни',
     date: '12 февраля',
     time: '19:00',
-    src: '../../../images/afisha/afisha-soundtrack.jpg'
+    src: './images/afisha/afisha-soundtrack.jpg'
   },
   {
     title: 'новый набор',
     date: '13, 14 февраля',
     time: '19:00',
-    src: '../../../images/afisha/afisha-nabor.jpg'
+    src: './images/afisha/afisha-nabor.jpg'
   },
   {
     title: 'идеальное тело',
     date: '17 февраля',
     time: '20:00',
-    src: '../../../images/afisha/afisha-ideal.jpg'
+    src: './images/afisha/afisha-ideal.jpg'
   },
   {
     title: 'водка, е#ля, телевизор',
     date: '18 февраля',
     time: '19:00',
-    src: '../../../images/afisha/afisha-vodka.jpg'
+    src: './images/afisha/afisha-vodka.jpg'
   },
   {
     title: 'запретные монологи v',
     date: '19 февраля',
     time: '19:00',
-    src: '../../../images/afisha/afisha-monologi.jpg'
+    src: './images/afisha/afisha-monologi.jpg'
   },
   {
     title: 'стоп sex',
     date: '22 февраля',
     time: '20:00',
-    src: '../../../images/afisha/afisha-stopsex.jpg'
+    src: './images/afisha/afisha-stopsex.jpg'
   },
   {
     title: 'моя собака бросила пить в четверг',
     date: '24 февраля',
     time: '20:00',
-    src: '../../../images/afisha/afisha-dog.jpg'
+    src: './images/afisha/afisha-dog.jpg'
   },
   {
     title: 'запретные монологи v',
     date: '25 февраля',
     time: '19:00',
-    src: '../../../images/afisha/afisha-monologi.jpg'
+    src: './images/afisha/afisha-monologi.jpg'
   },
   {
     title: 'урод',
     date: '26 февраля',
     time: '19:00',
-    src: '../../../images/afisha/afisha-urod.jpg'
+    src: './images/afisha/afisha-urod.jpg'
   },
 ];
 const afisha = document.querySelector('.afisha');
