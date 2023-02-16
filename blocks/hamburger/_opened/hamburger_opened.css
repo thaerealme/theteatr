@@ -1,0 +1,21 @@
+.hamburger_opened {
+
+}
+
+.hamburger_opened .hamburger__button {
+  background: transparent;
+}
+
+.hamburger_opened .hamburger__button::before {
+  transition: transform .5s;
+  transform: rotateZ(45deg);
+  background-color: #000;
+  top: 0;
+}
+
+.hamburger_opened .hamburger__button::after {
+  transition: transform .5s;
+  transform: rotateZ(-45deg);
+  background-color: #000;
+  top: 0;
+}

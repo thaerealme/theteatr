@@ -1,0 +1,16 @@
+.hamburger {
+  width: 38px;
+  height: 38px;
+  position: relative;
+  cursor: pointer;
+  display: none;
+  transition-duration: 1s;
+}
+
+
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: flex;
+    z-index: 1;
+  }
+}

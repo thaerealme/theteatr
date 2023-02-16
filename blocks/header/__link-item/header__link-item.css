@@ -1,0 +1,11 @@
+.header__link-item {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  margin-right: 15px;
+  font-weight: 700;
+}
+
+.header__link-item:last-child {
+  margin-right: 0;
+}
