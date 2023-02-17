@@ -23,6 +23,8 @@
 @import url(../blocks/mobile-menu/mobile-menu.css);
 @import url(../blocks/mobile-menu/__links/mobile-menu__links.css);
 @import url(../blocks/mobile-menu/__link-item/mobile-menu__link-item.css);
+@import url(../blocks/mobile-menu/__social/mobile-menu__social.css);
+@import url(../blocks/mobile-menu/__social-link/mobile-menu__social-link.css);
 @import url(../blocks/mobile-menu/_opened/mobile-menu_opened.css);
 
 @import url(../blocks/afisha/afisha.css);

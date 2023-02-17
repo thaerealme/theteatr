@@ -1,8 +1,9 @@
 .mobile-menu__link-item {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #000;
-    font-weight: 700;
-    margin-top: 15px;
-    margin-bottom: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 18px;
 }
