@@ -278,7 +278,7 @@ function createAfisha(item) {
   afishaItem.querySelector('.afisha__time').textContent = item.time;
   afishaItem.querySelector('.afisha__image').src = item.src;
   afishaItem.querySelector('.afisha__image').alt = item.title;
-  afishaItem.querySelector('.afisha__image').addEventListener('click', function (evt) {
+  afishaItem.addEventListener('click', function (evt) {
     afishaPopup.querySelector('.popup__title').textContent = item.title;
     afishaPopup.querySelector('.popup__genre').textContent = item.genre;
     afishaPopup.querySelector('.popup__director').textContent = item.director;
