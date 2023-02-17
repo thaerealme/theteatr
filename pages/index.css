@@ -1,6 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 @import url(../blocks/root.css);
+@import url(../blocks/overflow/overflow.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__links/header__links.css);
@@ -13,6 +14,7 @@
 
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_place/button_place_header.css);
+@import url(../blocks/button/_place/button_place_afisha.css);
 
 @import url(../blocks/hamburger/hamburger.css);
 @import url(../blocks/hamburger/__button/hamburger__button.css);
@@ -25,6 +27,24 @@
 
 @import url(../blocks/afisha/afisha.css);
 @import url(../blocks/afisha/__item/afisha__item.css);
+@import url(../blocks/afisha/__image/afisha__image.css);
 @import url(../blocks/afisha/__title/afisha__title.css);
+@import url(../blocks/afisha/__subtitle/afisha__subtitle.css);
 @import url(../blocks/afisha/__date/afisha__date.css);
 @import url(../blocks/afisha/__time/afisha__time.css);
+
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/_type/popup_type_afisha.css);
+@import url(../blocks/popup/__container/popup__container.css);
+@import url(../blocks/popup/__close-button/popup__close-button.css);
+@import url(../blocks/popup/__span-accent/popup__span-accent.css);
+@import url(../blocks/popup/__title/popup__title.css);
+@import url(../blocks/popup/__genre/popup__genre.css);
+@import url(../blocks/popup/__director/popup__director.css);
+@import url(../blocks/popup/__author/popup__author.css);
+@import url(../blocks/popup/__actors/popup__actors.css);
+@import url(../blocks/popup/__duration/popup__duration.css);
+@import url(../blocks/popup/__description/popup__description.css);
+@import url(../blocks/popup/__images/popup__images.css);
+@import url(../blocks/popup/__image-item/popup__image-item.css);
+@import url(../blocks/popup/_opened/popup_opened.css);

@@ -32,9 +32,12 @@
       </article> -->
       <template class="afisha-template">
         <article class="afisha__item">
+          <img class="afisha__image">
           <h2 class="afisha__title"></h2>
-          <p class="afisha__date"></p>
-          <p class="afisha__time"></p>
+          <div class="afisha__subtitle">
+            <p class="afisha__date"></p>
+            <p class="afisha__time"></p>
+          </div>
         </article>
       </template>
     </section>
@@ -53,6 +56,21 @@
         <a href="https://instagram.com/the_teatr_ufa/" target="_blank" class="mobile-menu__social-link">
           <img src="./images/social/instagram.svg" alt="Instagram" class="mobile-menu__social-icon">
         </a>
+      </div>
+    </div>
+    <div class="popup popup_type_afisha">
+      <div class="popup__container">
+        <button type="button" class="popup__close-button"></button>
+        <h3 class="popup__title">Под одеялом</h3>
+        <p class="popup__span-accent">Жанр: <span class="popup__genre"></span></p>
+        <p class="popup__span-accent">Режиссёр: <span class="popup__director"></span></p>
+        <p class="popup__span-accent">Автор: <span class="popup__author"></span></p>
+        <p class="popup__span-accent">Актёры: <span class="popup__actors"></span></p>
+        <p class="popup__span-accent">Продолжительность: <span class="popup__duration"></span></p>
+        <p class="popup__description"></p>
+        <div class="popup__images">
+        </div>
+        <a href="#" class="button button_place_afisha">купить билеты</a>
       </div>
     </div>
   </main>
