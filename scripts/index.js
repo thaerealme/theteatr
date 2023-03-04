@@ -292,7 +292,7 @@ function createAfisha(item) {
       const img = document.createElement('img');
       img.src = src;
       img.classList.add('popup__image-item');
-      img.addEventListener('mousedown', (evt) => {
+      img.addEventListener('mousedown', () => {
         fullImage.src = src;
         fullImage.alt = item.title;
         fullImageDescription.textContent = item.title;

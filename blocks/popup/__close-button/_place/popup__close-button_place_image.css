@@ -1,0 +1,14 @@
+.popup__close-button_place_image {
+  width: 32px;
+  height: 32px;
+  position: static;
+  align-self: flex-end;
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 525px) {
+  .popup__close-button_place_image {
+    width: 20px;
+    height: 20px;
+  }
+}
