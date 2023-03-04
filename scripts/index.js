@@ -259,10 +259,12 @@ const afisha = document.querySelector('.afisha');
 const afishaTemplate = afisha.querySelector('.afisha-template').content;
 
 const afishaPopup = document.querySelector('.popup_type_afisha');
-const closeButtons = document.querySelectorAll('.popup__close-button');
 const afishaImages = afishaPopup.querySelector('.popup__images');
+const popups = document.querySelectorAll('.popup');
 
 const imagePopup = document.querySelector('.popup_type_image');
+const fullImage = imagePopup.querySelector('.popup__image');
+const fullImageDescription = imagePopup.querySelector('.popup__image-description');
 
 hamburger.addEventListener('click', function () {
   hamburger.classList.toggle('hamburger_opened');
@@ -278,7 +280,7 @@ function createAfisha(item) {
   afishaItem.querySelector('.afisha__time').textContent = item.time;
   afishaItem.querySelector('.afisha__image').src = item.src;
   afishaItem.querySelector('.afisha__image').alt = item.title;
-  afishaItem.addEventListener('click', function (evt) {
+  afishaItem.addEventListener('click', function () {
     afishaPopup.querySelector('.popup__title').textContent = item.title;
     afishaPopup.querySelector('.popup__genre').textContent = item.genre;
     afishaPopup.querySelector('.popup__director').textContent = item.director;
@@ -286,12 +288,17 @@ function createAfisha(item) {
     afishaPopup.querySelector('.popup__actors').textContent = item.actors;
     afishaPopup.querySelector('.popup__duration').textContent = item.duration;
     afishaPopup.querySelector('.popup__description').textContent = item.description;
-    afishaPopup.querySelector('.popup__title').textContent = item.title;
     item.images.forEach(src => {
       const img = document.createElement('img');
       img.src = src;
       img.classList.add('popup__image-item');
-      afishaPopup.querySelector('.popup__images').append(img);
+      img.addEventListener('mousedown', (evt) => {
+        fullImage.src = src;
+        fullImage.alt = item.title;
+        fullImageDescription.textContent = item.title;
+        openPopup(imagePopup);
+      })
+      afishaImages.append(img);
     });
     openPopup(afishaPopup);
   });
@@ -301,13 +308,30 @@ function createAfisha(item) {
 function openPopup(popup) {
   popup.classList.add('popup_opened');
   root.classList.add('overflow');
+  document.addEventListener('keydown', keydownPopupHandler);
 }
 
 function closePopup(popup) {
   popup.classList.remove('popup_opened');
   root.classList.remove('overflow');
+  document.removeEventListener('keydown', keydownPopupHandler);
+  if (popup.classList.contains('popup_type_afisha')) {
+    clearImages();
+  }
+}
+
+const clearImages = () => {
   while (afishaImages.firstChild) {
     afishaImages.removeChild(afishaImages.firstChild);
+  }
+}
+
+const keydownPopupHandler = (evt) => {
+  if (evt.key === 'Escape') {
+    const popups = document.querySelectorAll('.popup_opened');
+    popups.forEach((popup) => {
+      closePopup(popup);
+    })
   }
 }
 
@@ -316,7 +340,19 @@ afishaArr.forEach((item) => {
   afisha.append(element);
 });
 
-closeButtons.forEach((button) => {
-  const popup = button.closest('.popup');
-  button.addEventListener('click', () => closePopup(popup));
-});
+
+popups.forEach((popup) => {
+  popup.addEventListener('mousedown', (evt) => {
+    if (evt.target.classList.contains('popup_opened') || evt.target.classList.contains('popup__close-button')) {
+      closePopup(popup);
+    }
+  })
+})
+
+// afishaImages.addEventListener('mousedown', (evt) => {
+//   fullImage.src = evt.target.src;
+//   fullImage.alt = afishaPopup.closest('.popup__title').textContent;
+//   fullImageDescription.textContent = fullImage.alt;
+//   openPopup(imagePopup);
+// })
+
