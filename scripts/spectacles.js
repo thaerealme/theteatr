@@ -2,7 +2,7 @@ const root = document.querySelector('.root');
 const spectaclesArr = [
   {
     title: 'Под одеялом',
-    src: './images/afisha/afisha-blanket.jpg',
+    src: './images/specs/odeyalo/2.jpg',
     genre: 'Спектакль-ощущение',
     director: 'Артём Самигуллин',
     author: 'Антон Бескоровайный',
@@ -16,12 +16,12 @@ const spectaclesArr = [
     Проект «the ТЕАТР» представляет свой самый популярный спектакль "ПОД ОДЕЯЛОМ".
     Спектакль в котором ты станешь не зрителем в зале, а путешественником в пространстве.
     Один на один с нашими персонажами и их любовью.`,
-    images: ['./images/specs/odeyalo/1.jpg'],
+    images: ['./images/specs/odeyalo/1.jpg', './images/specs/odeyalo/2.jpg'],
     link: 'https://the-teatr.timepad.ru/events/',
   },
   {
     title: 'Раненные фрейдом',
-    src: './images/afisha/afisha-freid.jpg',
+    src: './images/specs/freid/1.jpg',
     genre: 'Брутальная комедия',
     director: 'Артём Самигуллин',
     author: 'Антон Бескоровайный',
@@ -38,7 +38,7 @@ const spectaclesArr = [
   },
   {
     title: 'Саундтрек моей жизни',
-    src: './images/afisha/afisha-soundtrack.jpg',
+    src: './images/specs/soundtrack/1.jpg',
     genre: 'Тело, музыка, текст',
     director: 'Тамара Адамова',
     author: 'Живая речь',
@@ -56,7 +56,7 @@ const spectaclesArr = [
   },
   {
     title: 'Идеальное тело',
-    src: './images/afisha/afisha-ideal.jpg',
+    src: './images/specs/ideal/1.jpg',
     genre: 'Натурально-естественный спектакль',
     director: 'Артём Самигуллин',
     author: 'Ив Энцлер',
@@ -74,7 +74,7 @@ const spectaclesArr = [
   },
   {
     title: 'Водка, е#ля, телевизор',
-    src: './images/afisha/afisha-vodka.jpg',
+    src: './images/specs/vodka/1.jpg',
     genre: 'Экзистенциальная комедия',
     director: 'Алсу Галина',
     author: 'Максим Курочкин',
@@ -92,7 +92,7 @@ const spectaclesArr = [
   },
   {
     title: 'Стоп sex',
-    src: './images/afisha/afisha-stopsex.jpg',
+    src: './images/specs/stopsex/1.jpg',
     genre: 'Эротическая комедия',
     director: 'Руслан Абраров',
     author: 'Аристофан',
@@ -111,7 +111,7 @@ const spectaclesArr = [
   },
   {
     title: 'Моя собака бросила пить в четверг',
-    src: './images/afisha/afisha-dog.jpg',
+    src: './images/specs/dog/1.jpg',
     genre: 'Грязный реализм',
     director: 'Алсу Галина',
     author: 'Чарльз Буковски',
@@ -126,7 +126,7 @@ const spectaclesArr = [
   },
   {
     title: 'Запретные монологи v',
-    src: './images/afisha/afisha-monologi.jpg',
+    src: './images/specs/monologi/1.jpg',
     genre: 'Секреты женской анатомии',
     director: 'Артём Самигуллин',
     author: 'Ив Энцлер',
@@ -143,7 +143,7 @@ const spectaclesArr = [
   },
   {
     title: 'Урод',
-    src: './images/afisha/afisha-urod.jpg',
+    src: './images/specs/urod/1.jpg',
     genre: 'Чёрная комедия',
     director: 'Артём Самигуллин',
     author: 'Мариус фон Майенбург',
