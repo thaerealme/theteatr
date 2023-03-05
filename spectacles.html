@@ -6,14 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>theteatr</title>
-  <link rel="stylesheet" href="./pages/index.css">
+  <link rel="stylesheet" href="./pages/spectacles.css">
 </head>
 
 <body class="root">
   <header class="header">
     <img class="logo logo_place_header" src="./images/logo/logo.png" alt="Логотип">
     <nav class="header__links">
-      <a href="spectacles.html" class="header__link-item">спектакли</a>
+      <a href="./index.html" class="header__link-item">афиша</a>
+      <a href="#" class="header__link-item">спектакли</a>
       <a href="#" class="header__link-item">о театре</a>
       <a href="#" class="header__link-item">актёры</a>
       <a href="#" class="header__link-item">помочь театру</a>
@@ -24,14 +25,13 @@
     </div>
   </header>
   <main class="content">
-    <section class="afisha">
-      <template class="afisha-template">
-        <article class="afisha__item">
-          <img class="afisha__image">
-          <h2 class="afisha__title"></h2>
-          <div class="afisha__subtitle">
-            <p class="afisha__date"></p>
-            <p class="afisha__time"></p>
+    <section class="spectacles">
+      <template class="spectacles-template">
+        <article class="spectacles__item">
+          <img src="" class="spectacles__image">
+          <div class="spectacles__overlay">
+            <h2 class="spectacles__title"></h2>
+            <p class="spectacles__subtitle"></p>
           </div>
         </article>
       </template>
@@ -39,7 +39,8 @@
     <div class="mobile-menu">
       <img src="./images/logo/logo_black.png" alt="Логотип" class="logo logo_place_mobile-menu">
       <nav class="mobile-menu__links">
-        <a href="./spectacles.html" class="mobile-menu__link-item">спектакли</a>
+        <a href="./index.html" class="mobile-menu__link-item">афиша</a>
+        <a href="#" class="mobile-menu__link-item">спектакли</a>
         <a href="#" class="mobile-menu__link-item">о театре</a>
         <a href="#" class="mobile-menu__link-item">актёры</a>
         <a href="#" class="mobile-menu__link-item">помочь театру</a>
@@ -53,7 +54,7 @@
         </a>
       </div>
     </div>
-    <div class="popup popup_type_afisha">
+    <div class="popup popup_type_spectacles">
       <div class="popup__container">
         <button type="button" class="popup__close-button"></button>
         <h3 class="popup__title">Под одеялом</h3>
@@ -65,7 +66,7 @@
         <p class="popup__description"></p>
         <div class="popup__images">
         </div>
-        <a href="https://the-teatr.timepad.ru/events/" target="_blank" class="button button_place_afisha">купить
+        <a href="" target="_blank" class="button button_place_afisha">купить
           билеты</a>
       </div>
     </div>
@@ -81,7 +82,7 @@
     <!-- <img src="./images/logo/logo.png" alt="Логотип" class="logo logo_place_footer"> -->
     <p class="footer__copyright">&#169; 2023 the ТЕАТР | УФА</p>
   </footer>
-  <script src="./scripts/index.js"></script>
+  <script src="./scripts/spectacles.js"></script>
   <script src="./scripts/mobile-menu.js"></script>
   <script src="./scripts/popup.js"></script>
 </body>
