@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>theteatr</title>
+  <link rel="stylesheet" href="./pages/about.css">
+</head>
+
+<body class="root">
+  <header class="header">
+    <img class="logo logo_place_header" src="./images/logo/logo.png" alt="Логотип">
+    <nav class="header__links">
+      <a href="./index.html" class="header__link-item">афиша</a>
+      <a href="./spectacles.html" class="header__link-item">спектакли</a>
+      <a href="./about.html" class="header__link-item header__link-item_current">о театре</a>
+      <a href="./actors.html" class="header__link-item">актёры</a>
+      <a href="./school.html" class="header__link-item">школа</a>
+      <a href="./help.html" class="header__link-item">помочь театру</a>
+    </nav>
+    <a class="button button_place_header" href="https://the-teatr.timepad.ru/events/" target="_blank">купить билеты</a>
+    <div class="hamburger">
+      <span class="hamburger__button"></span>
+    </div>
+  </header>
+  <main class="content">
+    <section class="about">
+        <h1 class="about__title">О нашем театре</h1>
+        <div class="about__history">
+            <h2 class="about__history-title">История the Театра</h2>
+            <div class="about__history-container">
+                <p class="about__history-text">Проект «The ТЕАТР» был создан 13 сентября 2013 года группой выпускников театрального факультета Уфимской Государственной академии искусств.
+                    Проект "The ТЕАТР" – это спектакли молодых диких режиссеров.
+                    Проект «The ТЕАТР» - это современная драма, проза, поэзия, танец, язык, звук.
+                    Проект «The ТЕАТР» - говорит со зрителем на сегодняшние, пусть и не всегда безоблачные темы.
+                    На данный момент в театре имеется действующая школа обучения актерскому мастерству для взрослых и самых маленьких.
+                </p>
+                    <img src="./images/history/title.jpg" alt="Фото с открытия the Театр" class="about__history-image">
+            </div>
+        </div>
+        <div class="about__map">
+            <h2 class="about__history-title">Как нас найти?</h2>
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A2f57334dc26eecffdf84805d9f676530b861598e689357502a11d2f534511e60&amp;source=constructor"
+            width="100%" height="400" frameborder="0" class="about__map-element"></iframe>
+            <p class="about__map-text">Мы находимся по адресу: г. Уфа, ул. Карла Маркса 48/1</p>
+        </div>
+         <div class="about__contacts">
+            <h2 class="about__contacts-title">Контакты</h2>
+            <ul class="about__contacts-list">
+                <a class="about__list-item" href="https://insagram.com/theteatr/" target="_blank"><img class="about__social-icon" src="./images/about-social/social-instagram.svg" alt="Инстаграм"></a>
+                <a class="about__list-item" href="https://vk.com/the_teatr_ufa" target="_blank"><img class="about__social-icon" src="./images/about-social/social-vk.svg" alt="Вконтакте"></a>
+                <a class="about__list-item" href="https://wa.me/79174093979" target="_blank"><img class="about__social-icon" src="./images/about-social/social-whatsapp.svg" alt="WhatsApp"></a>
+            
+            </ul>
+        </div>
+    </section>
+    </h1>
+    <div class="mobile-menu">
+      <img src="./images/logo/logo_black.png" alt="Логотип" class="logo logo_place_mobile-menu">
+      <nav class="mobile-menu__links">
+        <a href="./index.html" class="mobile-menu__link-item">афиша</a>
+        <a href="#" class="mobile-menu__link-item">спектакли</a>
+        <a href="#" class="mobile-menu__link-item mobile-menu__link-item_current">о театре</a>
+        <a href="#" class="mobile-menu__link-item">актёры</a>
+        <a href="#" class="mobile-menu__link-item">школа</a>
+        <a href="#" class="mobile-menu__link-item">помочь театру</a>
+      </nav>
+      <div class="mobile-menu__social">
+        <a href="https://vk.com/the_teatr_ufa" target="_blank" class="mobile-menu__social-link">
+          <img src="./images/social/vk.svg" alt="VK" class="mobile-menu__social-icon">
+        </a>
+        <a href="https://instagram.com/the_teatr_ufa/" target="_blank" class="mobile-menu__social-link">
+          <img src="./images/social/instagram.svg" alt="Instagram" class="mobile-menu__social-icon">
+        </a>
+      </div>
+    </div>
+    <div class="popup popup_type_image">
+      <div class="popup__container popup__container_type_image">
+        <button type="button" class="popup__close-button popup__close-button_place_image opacity"></button>
+        <img class="popup__image" src="./images/afisha/afisha-blanket.jpg">
+        <p class="popup__image-description"></p>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <!-- <img src="./images/logo/logo.png" alt="Логотип" class="logo logo_place_footer"> -->
+    <p class="footer__copyright">&#169; 2023 the ТЕАТР | УФА</p>
+  </footer>
+  <script src="./scripts/mobile-menu.js"></script>
+  <script src="./scripts/popup.js"></script>
+</body>
+
+</html>

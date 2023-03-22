@@ -1,0 +1,9 @@
+.about__map {
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 593px) {
+    .about__map {
+        padding: 0 15px;
+    }
+}
