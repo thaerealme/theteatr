@@ -1,0 +1,9 @@
+.school__grid-item_vertical {
+    height: 760px;
+}
+
+@media screen and (max-width: 1190px) {
+    .school__grid-item_vertical {
+        height: auto;
+    }
+}

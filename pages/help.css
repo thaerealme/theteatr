@@ -1,0 +1,44 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+@import url(../blocks/root.css);
+@import url(../blocks/overflow/overflow.css);
+@import url(../blocks/opacity/opacity.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__link-item/header__link-item.css);
+@import url(../blocks/header/__link-item/header__link-item_current.css);
+
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
+@import url(../blocks/logo/_place/logo_place_mobile-menu.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
+
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_place/button_place_header.css);
+@import url(../blocks/button/_place/button_place_afisha.css);
+
+@import url(../blocks/hamburger/hamburger.css);
+@import url(../blocks/hamburger/__button/hamburger__button.css);
+@import url(../blocks/hamburger/_opened/hamburger_opened.css);
+
+@import url(../blocks/mobile-menu/mobile-menu.css);
+@import url(../blocks/mobile-menu/__links/mobile-menu__links.css);
+@import url(../blocks/mobile-menu/__link-item/mobile-menu__link-item.css);
+@import url(../blocks/mobile-menu/__link-item/mobile-menu__link-item_current.css);
+@import url(../blocks/mobile-menu/__social/mobile-menu__social.css);
+@import url(../blocks/mobile-menu/__social-link/mobile-menu__social-link.css);
+@import url(../blocks/mobile-menu/_opened/mobile-menu_opened.css);
+
+@import url(../blocks/help/help.css);
+@import url(../blocks/help/__title/help__title.css);
+@import url(../blocks/help/__subtitle/help__subtitle.css);
+@import url(../blocks/help/__props/help__props.css);
+@import url(../blocks/help/__props-list/help__props-list.css);
+@import url(../blocks/help/__list-item/help__list-item.css);
+
+
+
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);

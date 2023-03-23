@@ -1,0 +1,14 @@
+.school__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(585px, 1fr));
+    grid-template-rows: 760px;
+    column-gap: 14px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1200px) {
+    .school__grid {
+        grid-template-columns: repeat(auto-fit, minmax(282px, 1fr));
+        grid-template-rows: auto;
+    }
+}

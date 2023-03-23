@@ -1,0 +1,14 @@
+.school__text {
+    color: #fff;
+    line-height: 1.5;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    max-width: 585px;
+}
+
+@media screen and (max-width: 768px) {
+    .school__text {
+        padding-top: 0;
+    }
+}

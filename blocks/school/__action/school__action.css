@@ -1,0 +1,11 @@
+.school__action {
+    color: #fff;
+    margin: 0;
+    padding-top: 35px;
+}
+
+@media screen and (max-width: 768px) {
+    .school__action {
+        padding-bottom: 15px;
+    }
+}

@@ -1,0 +1,9 @@
+.help__list-item {
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.help__list-item::before {
+    content: '— ';
+}
