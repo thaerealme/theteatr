@@ -242,3 +242,11 @@ const clearImages = () => {
     spectaclesImages.removeChild(spectaclesImages.firstChild);
   }
 }
+
+// export class Spectacles {
+//   constructor (spectacle, templateSelector, handleAdditionalPopup ,handleImagePopup) {
+//     this._spectacle = spectacle;
+//     this._templateSelector = templateSelector;
+//     this._handleAdditionalPopup = handleAdditionalPopup;
+//   }
+// }

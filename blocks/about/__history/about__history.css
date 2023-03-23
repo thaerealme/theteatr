@@ -1,3 +1,11 @@
 .about__history {
  margin-bottom: 48px;
+ padding-top: 24px;
+ padding-bottom: 32px;
+}
+
+@media screen and (max-width: 593px) {
+    .about__history {
+        padding-bottom: 0;
+    }
 }

@@ -1,0 +1,12 @@
+.map__text {
+    color: #fff;
+    margin: 0;
+    padding: 10px 0;
+}
+
+@media screen and (max-width: 583px) {
+    .map__text {
+        padding: 10px 5px;
+        font-size: 14px;
+    }
+}

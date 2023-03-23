@@ -1,12 +1,8 @@
 .about__history-container {
+    max-width: 1184px;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(282px, 1fr));
     gap: 20px 30px;
     justify-items: center;
-}
-
-@media screen and (max-width: 593px) {
-    .about__history-container {
-        padding: 0 10px;
-    }
 }

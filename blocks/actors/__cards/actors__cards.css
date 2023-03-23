@@ -1,0 +1,13 @@
+.actors__cards {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 25px 15px;
+    justify-items: center;
+}
+
+@media screen and (max-width: 474px) {
+    .actors__cards {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+}

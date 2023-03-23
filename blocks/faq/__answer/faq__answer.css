@@ -1,0 +1,9 @@
+.faq__answer {
+    display: block;
+    padding-top: 3px;
+    line-height: 1.25;
+}
+
+.faq__answer::before {
+    content: '— ';
+}
