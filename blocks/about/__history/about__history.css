@@ -7,5 +7,6 @@
 @media screen and (max-width: 593px) {
     .about__history {
         padding-bottom: 0;
+        padding-top: 0;
     }
 }

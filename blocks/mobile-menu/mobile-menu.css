@@ -4,7 +4,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #fb00ff;
+  background-image: linear-gradient(to top, #770078, #8d0096, #a200b7, #b500da, #c700ff);
   visibility: hidden;
   opacity: 0;
   flex-direction: column;

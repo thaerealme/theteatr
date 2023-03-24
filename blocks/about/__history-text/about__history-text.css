@@ -1,13 +1,13 @@
 .about__history-text {
     color: #fff;
     max-width: 600px;
-    text-align: justify;
-    line-height: 2;
+    line-height: 1.5;
     margin: 0;
 }
 
 @media screen and (max-width: 593px) {
     .about__history-text {
-        padding: 0 10px;
+        padding: 0 25px;
+        padding-bottom: 5px;
     }
 }
